@@ -49,9 +49,9 @@ document.addEventListener("keypress", function (e) {
     }
 })
 
-//Game as each word is guessed correctly, image should populate.
+//Game should run as follows, each word is guessed correctly, image should populate.
 //h2 should state the name of the image, and song is optional to play.
-//
+//Each word should reset, if the word is guessed correctly, or if max number of tries are reduced to 0.
 
 
 
