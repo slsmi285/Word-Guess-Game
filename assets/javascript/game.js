@@ -3,10 +3,10 @@
 var underscoresLabel = document.querySelector("#underscores");
 var remainingLabel = document.querySelector("#remaining-guesses");
 var attemptsLabel = document.querySelector("#attempts");
-var possibleWords = ["magnum", "hawaii", "surf", "farrari", "higgins"];
+var magnumWord = ["magnum", "hawaii", "surf", "farrari", "higgins"];
 var attempts = []
 var remainingAttempts = 10;
-var 
+
 
 // Main Functionality Starts
 var wordToGuess = getWord();
