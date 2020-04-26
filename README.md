@@ -32,6 +32,51 @@
     
     
 
-     
+
+
+   // Need to track guesses and record letters used, wins, show letters of word - track, show picture and play music.
+//var remainingLetters = game.length;
+// Counter - for every guess, variable will decrease by 1. Once it hits 0, player has won or loss?
+//while (remainingLetters > 0) {
+    //show the player their progress
+//}
+
+//Get a guess from the player - take input
+// user presses correct letter key, letter displays under "current word".
+var guess = prompt("Guess a letter, or click Cancel to stop playing.");
+if (guess === null) {
+    //Exit the game loop
+} else if (guess.length !== 1) {
+    alert("Please enter a single letter.");
+} else {
+    // Update the game state with the guess
+    for (var j = 0; j < word.length; j++) {
+        if (word[j] === guess) {
+            answerArray[j] = guess;
+            remainingLetters--;
+        }
+        function drawScore() {
+            CanvasRenderingContext2D.font = "16px Arial";
+            CanvasRenderingContext2D.fillstyle = "#0095dd";
+            CanvasRenderingContext2D.filltext("Score: " + score, 8, 20);
+        }
+    }
+}
+//the end of the game loop.
+
+// Wins
+// Count
+// Letter Used
+// Letters chosen by user is displayed
+// user presses incorrect letter key, letter displays under "letters used". Create function for if, else if.
+// number of guesses - user will see counter max at start of each word game, for each letter chosen, counter will count back to 0, game ends.
+// user guesses word, and completes choosing the letters. Wins is counted displayed, image of word displays and header above game displays. Music optional.
+
+//need to use document.write() 
+// Show the answer and congratulate the player
+alert(answerArray.join(" "));
+alert("Good job! The answer was " + word);
+
+  
     
    

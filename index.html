@@ -1,36 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Word Guess Game</title>
-    <a link href="assets/css/style.css"></a>
-    <a link href="assets/css/reset.css"></a>
-    
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
 
-
-<h1 class = "gamehead">Word Guess Game</h1>
-
-<h4>Press any key to start game!</h4>
-
-<p>Guess the word by choosing the correct letter.</p>
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="assets/javascript/game.js">
-    </script>
-
+<body class="container">
+  <div class="maincontent">
+    <h1>Word Guess Game</h1>
+    <h3>PRESS ANY LETTER KEY TO GET STARTED!</h3>
+    <h3>Current Word</h3>
+    <h4 id="underscores"></h4>
+    <br>
+    <h3>NUMBER OF GUESSES REMANING: <span id="remaining-guesses"></span></h3>
+    <h3>LETTERS ALREADY GUESSED</h3>
+    <h3 id="attempts"></h3>
+  </div>
+  <script src="assets/javascript/game.js"></script>
 </body>
 </html>

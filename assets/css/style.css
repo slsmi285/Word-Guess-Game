@@ -1,0 +1,23 @@
+.maincontent {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.701);
+    padding: 1em;
+    left:0;
+    top: 0;
+    max-width: 100%;
+    height: 100%;
+    margin: 100px auto;
+    text-align: center;
+    font-weight: 500px;
+    color:white;
+  }
+  .container { 
+    background: url('../images/magnum.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .car-copy {
+    padding-top:(70);
+    text-align: center;
+  }
