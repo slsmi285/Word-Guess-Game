@@ -3,9 +3,11 @@
 var underscoresLabel = document.querySelector("#underscores");
 var remainingLabel = document.querySelector("#remaining-guesses");
 var attemptsLabel = document.querySelector("#attempts");
-var magnumWord = ["magnum", "hawaii", "surf", "farrari", "higgins"];
+var possibleWords = ["magnum", "hawaii", "surf", "farrari", "higgins"];
 var attempts = []
 var remainingAttempts = 10;
+var 
+
 // Main Functionality Starts
 var wordToGuess = getWord();
 updateLabels()
@@ -47,6 +49,9 @@ document.addEventListener("keypress", function (e) {
     }
 })
 
+//Game as each word is guessed correctly, image should populate.
+//h2 should state the name of the image, and song is optional to play.
+//
 
 
 
